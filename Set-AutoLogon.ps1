@@ -107,3 +107,4 @@ Function Set-AutoLogon{
     }
 
 }
+Set-AutoLogon -DefaultUsername "lab\kkerr" -DefaultPassword "<%=cypher.read(secret/domainadmin)%>" -AutoLogonCount "1"
